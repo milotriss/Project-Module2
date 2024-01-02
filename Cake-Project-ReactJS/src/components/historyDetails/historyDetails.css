@@ -1,0 +1,47 @@
+.popup__list  .popup__history {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.5);
+    border: 1px solid var(--primary);
+    border-radius: 30px;
+    padding: 10px 10px;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.popup__list  .popup__history::-webkit-scrollbar {
+    display: none;
+}
+
+.popup__list  .popup__history li {
+    min-height: 25%;
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--primary);
+    border-radius: 30px;
+    color: var(--primary);
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    padding-right: 50px;
+}
+.popup__list  .popup__history li img {
+    object-fit: cover;
+    height: 100%;
+    width: 25%;
+}
+.popup__list  .popup__history li p {
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    width: 25%;
+}
+.popup__list  .popup__history li span {
+    font-size: 30px;
+}

@@ -1,0 +1,113 @@
+.saleoff {
+  background-image: url("../../../public/assets/images/cake2/145-cake-dessert-strawberry-spoon-dark-4k.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: center;
+  position: relative;
+  transition: 0.5s;
+}
+.saleoff .overlay {
+  padding: 0 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: center;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+}
+.saleoff .overlay .sale__group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  width: 100%;
+}
+.saleoff .overlay .sale__group .sale1 {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid var(--primary);
+  padding: 40px 40px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.7);
+  transition: 0.2s;
+  width: 50%;
+}
+.saleoff .overlay .sale__group .sale1:hover {
+  transform: scale(1.09);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.saleoff .overlay .sale__group .sale1 h1 {
+  font-family: "Lobster Two", sans-serif;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 300;
+}
+.saleoff .overlay .sale__group .sale1 h2 {
+  padding: 30px 0;
+  color: var(--primary);
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.saleoff .overlay .sale__group .sale1 p {
+  font-family: "Quicksand", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 200;
+  text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.9);
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .saleoff .overlay .sale__group {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .saleoff .overlay .sale__group .sale1 {
+    width: 100%;
+    height: 200px;
+  }
+  .saleoff .overlay {
+    padding: 0 150px;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  .saleoff .overlay .sale__group {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .saleoff .overlay .sale__group .sale1 {
+    width: 100%;
+    height: 200px;
+  }
+  .saleoff .overlay {
+    padding: 0 150px;
+  }
+  .saleoff .overlay .sale__group .sale1 h1 {
+    font-size: 17px;
+  }
+  .saleoff .overlay .sale__group .sale1 h2 {
+    font-size: 23px;
+    padding: 20px;
+  }
+  .saleoff .overlay .sale__group .sale1 p {
+    font-size: 13px;
+  }
+}

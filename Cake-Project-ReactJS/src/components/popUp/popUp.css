@@ -1,0 +1,38 @@
+.popup__payment {
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    width: 450px;
+    height: 300px;
+    padding: 10px 20px;
+    background-color: #000;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.5);
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    display: none;
+}
+.popup__payment .popup__cart-delete-btn{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.popup__payment .popup__cart-delete-btn button{
+    width: 60px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    background-color: var(--primary);
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.7);
+}
+.popup__payment .popup__cart-delete-btn button:hover{
+    background-color: transparent;
+    color: #fff;
+}

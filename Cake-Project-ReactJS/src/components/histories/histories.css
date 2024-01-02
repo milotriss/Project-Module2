@@ -1,0 +1,108 @@
+.historyBackGround {
+    background-image: url("../../../public/assets/images/cake2/1eefe99d-4f6b-40b8-bf17-07864b4e9869.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}   
+.historyOverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 100px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+.history {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    height: 100%;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    /* display: none; */
+}
+.history .history__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 20px;
+    width: 100%;
+    height: 10%;
+}
+.history .history__title h1 {
+    font-size: 70px;
+    color: var(--primary);
+}
+.history .history__title .iconHistories {
+    font-size: 50px;
+    color: var(--primary);
+    cursor: pointer;
+    font-weight: 900;
+}
+.history .history__title .search__order {
+    position: relative;
+}
+.history .history__title .search__order ul {
+    position: absolute;
+    top: 56px;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    background-color: #65daca8e;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px 20px;
+    display: none;
+}
+.history .history__title .search__order ul li {
+    width: 100%;
+    min-height: 90px;
+    background-color: #65dacaea;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 25px;
+}
+.history .history__title .search__order ul li:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.history .history__title .search__order input {
+    display: inline-block;
+    width: 350px;
+    padding: 15px 20px;
+    font-size: 25px;
+    background-color: #65dacacc;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #000;
+}
+.history .history__title .search__order input::placeholder{
+    color: #fff;
+}

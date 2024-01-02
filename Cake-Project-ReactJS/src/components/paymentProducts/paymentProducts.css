@@ -1,0 +1,28 @@
+.product__payment-items .product__payment-item {
+    min-height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-right: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.product__payment-items .product__payment-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 25%;
+}
+.product__payment-items .product__payment-item p,
+.product__payment-items .product__payment-item span {
+    width: 25%;
+    text-align: center;
+}
+.product__payment-items .product__payment-item p {
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 40px;
+}
+.product__payment-items .product__payment-item span {
+    font-size: 30px;
+}

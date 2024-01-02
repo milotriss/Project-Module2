@@ -1,0 +1,282 @@
+.about {
+    background-image: url("../../../public/assets/images/cake2/choco-cake-food.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: center;
+    position: relative;
+    transition: 0.5s;
+  }
+  .about .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: center;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about .overlay .about__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 80%;
+    flex: 1;
+    gap: 50px;
+    padding: 120px 20px 0 200px;
+  }
+  .about .overlay .about__top .about__us {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .about .overlay .about__top .about__us h1 {
+    width: 100%;
+    height: 10%;
+    font-family: "Quicksand", sans-serif;
+    font-size: 50px;
+    font-weight: 500px;
+    color: var(--primary);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+  .about .overlay .about__top .about__us .middle {
+    width: 100%;
+    height: 80%;
+  }
+  .about .overlay .about__top .about__us .middle li:nth-child(even) {
+    width: 100%;
+    min-height: 20%;
+  }
+  .about .overlay .about__top .about__us .middle li p {
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+  }
+  .about .overlay .about__top .about__us .middle .devide {
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary);
+    margin: 20px 0;
+  }
+  .about .overlay .about__top .about__us .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    height: 10%;
+    width: 100%;
+  }
+  .about .overlay .about__top .about__us .bottom li {
+    text-align: center;
+    color: var(--primary);
+  }
+  .about .overlay .about__top .about__us .bottom li h6 {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--primary);
+  }
+  
+  .about .overlay .about__top .ourteam {
+    width: 60%;
+    height: 100%;
+  }
+  .about .overlay .about__top .ourteam h1 {
+    width: 100%;
+    height: 10%;
+    font-family: "Quicksand", sans-serif;
+    font-size: 50px;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    color: var(--primary);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about .overlay .about__top .ourteam .ourteam__group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 90%;
+  }
+  .about .overlay .about__top .ourteam .ourteam__group figure {
+    width: 46%;
+    height: 40%;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid var(--primary);
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .about .overlay .about__top .ourteam .ourteam__group figure img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+  .about .overlay .about__top .ourteam .ourteam__group figure figcaption {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+  }
+  .about .overlay .about__top .ourteam .ourteam__group figure figcaption h3 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  .about .overlay .about__top .ourteam .ourteam__group figure figcaption h4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    color: #fff;
+  }
+  
+  .about .overlay .about__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    padding: 20px 200px 10px 200px;
+  }
+  .about .overlay .about__footer .about__footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .about .overlay .about__footer .about__footer-contact h1 {
+    font-family: "Lobster Two", sans-serif;
+    font-size: 25px;
+    color: var(--primary);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    letter-spacing: 5px;
+  }
+  .about .overlay .about__footer .about__footer-contact p {
+    font-size: 14px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+  }
+  .about .overlay .about__footer .about__footer-contact .ab-icon {
+    display: flex;
+    align-items: center;
+  }
+  .about .overlay .about__footer .about__footer-contact .ab-icon p {
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
+  }
+  .about .overlay .about__footer .about__footer-contact .ab-icon .iconFooter {
+    font-size: 20px;
+    color: var(--primary);
+    margin-right: 10px;
+  }
+  .about .overlay .about__footer .about__footer-subcribe {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .about .overlay .about__footer .about__footer-subcribe .about__footer-write {
+    width: 300px;
+    position: relative;
+  }
+  .about
+    .overlay
+    .about__footer
+    .about__footer-subcribe
+    .about__footer-write
+    input {
+    width: 100%;
+    padding: 10px 0 10px 10px;
+    border-radius: 40px;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    background-color: transparent;
+  }
+  .about
+    .overlay
+    .about__footer
+    .about__footer-subcribe
+    .about__footer-write
+    input::placeholder {
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }
+  .about
+    .overlay
+    .about__footer
+    .about__footer-subcribe
+    .about__footer-write
+    button {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    background-color: var(--primary);
+    border-radius: 40px;
+    border: none;
+    color: #000;
+    padding: 0 10px;
+    font-size: 12px;
+    transition: 0.3s;
+  }
+  .about
+    .overlay
+    .about__footer
+    .about__footer-subcribe
+    .about__footer-write
+    button:hover {
+    transform: scale(1.09);
+  }
+  .about .overlay .about__footer .about__footer-subcribe .footer__icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .about .overlay .about__footer .about__footer-subcribe .footer__icon .iconFooterBrand {
+    font-size: 30px;
+    color: var(--primary);
+    cursor: pointer;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+  }
+  .about .overlay .about__footer .about__footer-subcribe .footer__icon .iconFooterBrand:hover {
+    transform: scale(1.5);
+  }
+  .about .overlay .about__footer .about__footer-subcribe p {
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  }

@@ -1,0 +1,186 @@
+.bg__contact {
+    background-image: url("../../../public/assets/images/cake2/3360x1680.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.bg__contact .overlay {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.bg__contact .overlay .headerLocation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.bg__contact .overlay .headerLocation .back {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--primary);   
+    border-radius: 30px;
+    color: var(--primary);
+    font-size: 18px;    
+    transition: 0.3s;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.5);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.bg__contact .overlay .headerLocation .back:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    border: 1px solid #fff;
+    transform: scale(1.1);
+}
+.bg__contact .overlay .headerLocation img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* Header */
+
+/* main */
+.bg__contact .overlay .mainLocation {
+    padding: 50px 100px;
+}
+.bg__contact .overlay .mainLocation .contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.bg__contact .overlay .mainLocation .contact .contact__info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 30px 30px;
+    border-radius: 30px;
+}
+.bg__contact .overlay .mainLocation .contact .contact__info h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px rgba(205, 202, 202, 0.571);
+    color: var(--primary);
+}
+.bg__contact .overlay .mainLocation .contact .contact__info p {
+    color: var(--primary);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(205, 202, 202, 0.571);
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__link .contact__link-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__link .contact__link-items .iconLocation {
+    border: 1px solid var(--primary);
+    border-radius: 50%;
+    background-color: rgba(81, 80, 80, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 60px;
+    padding: 15px;
+    color: var(--primary);
+    cursor: pointer;
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__link .contact__link-items .iconLocation:hover {
+    background-color: var(--primary);
+    transform: scale(1.1);
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__link .contact__link-items .contact__text {
+    font-size: 14px;
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__link .contact__link-items .contact__text p {
+    color: var(--primary);
+    line-height: 20px;
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__link .contact__link-items .contact__text p span {
+    color: #999
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__subscribe {
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(205, 202, 202, 0.571);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;  
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__subscribe p {
+    line-height: 20px;
+    font-size: 16px;
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__subscribe .contact__subscribe-input {
+    position: relative;
+    width: 350px;
+    height: 45px;
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__subscribe .contact__subscribe-input input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--primary);
+    background-color: transparent;
+    border-radius: 9px;
+    padding: 0 20px;
+    color: var(--primary);
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__subscribe .contact__subscribe-input input::placeholder {
+    color: #999;
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__subscribe .contact__subscribe-input button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.bg__contact .overlay .mainLocation .contact .contact__info .contact__subscribe .contact__subscribe-input button:hover {
+    background-color: transparent;
+    color: #fff;
+}
+.bg__contact .overlay .mainLocation .contact .contact__map {
+    width: 60%;
+    height: 100%;
+    border: 3px solid var(--primary);
+    box-shadow: 3px 3px 1px rgba(0 , 0, 0, 0.5);
+}
+iframe {
+    filter: none;
+    width: 100%;
+    height: 700px;
+}

@@ -1,0 +1,644 @@
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$oJfQ4NbrQbA1pLIHgmlQk.K414Nh1cTSLUYTcBNzXOUMqq23b1rJK",
+      "fullName": "Lâm Nhật Tiến",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Nodata%2Fanh-meo-che-anh-meo-bua-17-09-00-01-36.jpg?alt=media&token=c5334804-ad6e-4b60-aabc-79f1337f3e7c",
+      "role": 3,
+      "status": true,
+      "phone": "",
+      "address": "",
+      "cart": [],
+      "id": 1
+    },
+    {
+      "email": "moderator@gmail.com",
+      "password": "$2a$10$KIPbCgzuR5YNLT67SnOxcOP6kr57iPM9kul4cTY2YyojrZ6apdj22",
+      "fullName": "Trần Hữu Đồng",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Nodata%2Fanh-meo-che-anh-meo-bua-17-09-00-01-36.jpg?alt=media&token=c5334804-ad6e-4b60-aabc-79f1337f3e7c",
+      "role": 1,
+      "status": true,
+      "phone": "",
+      "address": "",
+      "cart": [],
+      "id": 2
+    },
+    {
+      "email": "moderatorHAD@gmail.com",
+      "password": "$2a$10$Wyl/lcN.DwhZEDczfnqkzOq6QZyvaLOT3Y08iuQPOWoWGRMICZOCe",
+      "fullName": "Hồ Anh Dương",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Nodata%2Fanh-meo-che-anh-meo-bua-17-09-00-01-36.jpg?alt=media&token=c5334804-ad6e-4b60-aabc-79f1337f3e7c",
+      "role": 1,
+      "status": true,
+      "phone": "",
+      "address": "",
+      "cart": [],
+      "id": 3
+    },
+    {
+      "email": "kho@gmail.com",
+      "password": "$2a$10$1XjCLMB45N45lSc6dHzJ5Olkq2q5SOkp9ModXHanMUwv5oL.tq4QG",
+      "fullName": "Trần Như Phúc",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/avatar%2Fz4992343079898_79cb9f460c2b80c7f17fd0bf15124bf0.jpg?alt=media&token=f3a64301-be8f-421e-84cb-5966a8a6fe92",
+      "role": 2,
+      "status": true,
+      "phone": "09999999999",
+      "address": "193 Nguyễn Lương Bằng",
+      "cart": [],
+      "id": 4
+    },
+    {
+      "email": "tuan@gmail.com",
+      "password": "$2a$10$lIYUO/qv/MShQGaJFgKK7ujC/7Lw8Pc2SW4z9nPOS1UnydWGhHWd.",
+      "fullName": "Trương Quang Tuấn",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Nodata%2Fanh-meo-che-anh-meo-bua-17-09-00-01-36.jpg?alt=media&token=c5334804-ad6e-4b60-aabc-79f1337f3e7c",
+      "role": 2,
+      "status": true,
+      "phone": "",
+      "address": "",
+      "cart": [],
+      "id": 5
+    },
+    {
+      "email": "hieutran@gmail.com",
+      "password": "$2a$10$FYB.QK11ngEVsjYysUc4UenuRxVzRczsv/Y5B6zKZ0qkx1JRQ3i9q",
+      "fullName": "Trần Viết Duy Hiệu",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Nodata%2Fanh-meo-che-anh-meo-bua-17-09-00-01-36.jpg?alt=media&token=c5334804-ad6e-4b60-aabc-79f1337f3e7c",
+      "role": 2,
+      "status": true,
+      "phone": "",
+      "address": "",
+      "cart": [],
+      "id": 6
+    },
+    {
+      "email": "hieuvo@gmail.com",
+      "password": "$2a$10$FO.vlZc2fCnab7NogfEW5uHHSBZFXZelinM29QSc2k3HVx/XK8bo.",
+      "fullName": "Võ Văn Hiếu",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Nodata%2Fanh-meo-che-anh-meo-bua-17-09-00-01-36.jpg?alt=media&token=c5334804-ad6e-4b60-aabc-79f1337f3e7c",
+      "role": 2,
+      "status": true,
+      "phone": "",
+      "address": "",
+      "cart": [],
+      "id": 7
+    },
+    {
+      "email": "binh@gmail.com",
+      "password": "$2a$10$z091De2ZYrfkEJh9MNxbU.unaTLNjLKass381TU.rM4wKCvgQwZ/K",
+      "fullName": "Nguyễn Thanh Bình",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Nodata%2Fanh-meo-che-anh-meo-bua-17-09-00-01-36.jpg?alt=media&token=c5334804-ad6e-4b60-aabc-79f1337f3e7c",
+      "role": 2,
+      "status": true,
+      "phone": "",
+      "address": "",
+      "cart": [],
+      "id": 8
+    },
+    {
+      "email": "vien@gmail.com",
+      "password": "$2a$10$gVL/63PhwS5huUZLBUGtpe9rZSY7X5kK1Bgp.UwwbGHsF6787OLEK",
+      "fullName": "Anh Vien",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/avatar%2F1064762.jpg?alt=media&token=5956fcae-18be-41a6-9f03-413e21f4f807",
+      "role": 2,
+      "status": true,
+      "phone": "",
+      "address": "",
+      "cart": [
+        {
+          "id": 2,
+          "name": "Caramel Pudding Cake",
+          "price": 39000,
+          "stock": 990,
+          "isDelete": true,
+          "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2FCaremel%20Pudding%20cake%E7%84%A6%E7%B3%96%E5%B8%83%E4%B8%81%E8%9B%8B%E7%B3%95.jpeg?alt=media&token=853924a6-c614-42eb-8828-3fae9ef923a2",
+          "desc": "Describe",
+          "category": "Cake & Deserts",
+          "quantity": 10
+        }
+      ],
+      "id": 9
+    },
+    {
+      "email": "viet@gmail.com",
+      "password": "$2a$10$eWtm5focGh25xxPtokohsuOIDkXBtd41tm4dDUCcUh2/Qvc75efDG",
+      "fullName": "Hoang Viet",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Nodata%2Fanh-meo-che-anh-meo-bua-17-09-00-01-36.jpg?alt=media&token=c5334804-ad6e-4b60-aabc-79f1337f3e7c",
+      "role": 2,
+      "status": true,
+      "phone": "",
+      "address": "",
+      "cart": [],
+      "id": 10
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "British Victoria Sandwich",
+      "price": "59,000",
+      "stock": "999",
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2FBritish%20Victoria%20Sandwich%20Sponge%20cake%20%E7%BB%B4%E5%A4%9A%E5%88%A9%E4%BA%9A%E6%B5%B7%E7%BB%B5%E8%9B%8B%E7%B3%95.jpeg?alt=media&token=6a3c9898-70b2-426b-a52f-cc519763ad8d",
+      "desc": "Describe",
+      "category": "Cake & Deserts"
+    },
+    {
+      "id": 2,
+      "name": "Caramel Pudding Cake",
+      "price": 39000,
+      "stock": 986,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2FCaremel%20Pudding%20cake%E7%84%A6%E7%B3%96%E5%B8%83%E4%B8%81%E8%9B%8B%E7%B3%95.jpeg?alt=media&token=853924a6-c614-42eb-8828-3fae9ef923a2",
+      "desc": "Describe",
+      "category": "Cake & Deserts"
+    },
+    {
+      "id": 3,
+      "name": "Chocolate and Caramel Mousse Cake",
+      "price": 49000,
+      "stock": 992,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2FChocolate%20and%20Caramel%20Mousse%20Cake%20-%20Julie%20Marie%20Eats.jpeg?alt=media&token=524157e4-62ae-45e3-8aea-2084200ee2c0",
+      "desc": "Describe",
+      "category": "Cake & Deserts"
+    },
+    {
+      "id": 4,
+      "name": "Lava Luxury Cake",
+      "price": 59000,
+      "stock": 987,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%20%26%20Deserts%2F9b7827375fed22779f95b6486d86b438.jpg?alt=media&token=05ee0637-0f68-429d-873b-dd740603a5a2",
+      "desc": "Describe",
+      "category": "Cake & Deserts"
+    },
+    {
+      "id": 5,
+      "name": "Pumpkin Yogurt Cake",
+      "price": 49000,
+      "stock": 992,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2Fpumpkin%20yogurt%20cake%20%E5%8D%97%E7%93%9C%E9%85%B8%E5%A5%B6%E8%9B%8B%E7%B3%95.jpeg?alt=media&token=24164fe8-b69a-467d-9587-ffa3bea85786",
+      "desc": "Describe",
+      "category": "Cake & Deserts"
+    },
+    {
+      "id": 6,
+      "name": "Sweet Tooth Girl (2 pieces)",
+      "price": 29000,
+      "stock": 993,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2FSweet%20Tooth%20Girl.jpeg?alt=media&token=2309b667-e65d-4b4e-94b5-8e7334853fc2",
+      "desc": "Describe",
+      "category": "Cake & Deserts"
+    },
+    {
+      "id": 7,
+      "name": "Snack Cake",
+      "price": 59000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2FSnack%20Cakes.jpeg?alt=media&token=17163ca8-7c7f-473b-a9eb-0665af62d964",
+      "desc": "Describe",
+      "category": "Cake & Deserts"
+    },
+    {
+      "id": 8,
+      "name": "Rice Cake",
+      "price": 49000,
+      "stock": 998,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2F%E4%B8%89%E8%89%B2%E7%B1%B3%E7%B3%95%20Chinese%20rice%20cake%20photography.jpeg?alt=media&token=1d89f649-a783-4184-afbd-46d1ec7b3c76",
+      "desc": "Describe",
+      "category": "Cake & Deserts"
+    },
+    {
+      "id": 9,
+      "name": "Loaf Soughdough",
+      "price": 129000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBread%2F5a036831-73fc-4730-827d-c43b3f6c3b6d.jpeg?alt=media&token=4c0bf924-cd99-4e49-ae8c-3f702f222885",
+      "desc": "Describe",
+      "category": "Bread"
+    },
+    {
+      "id": 10,
+      "name": "Cinamon Roll",
+      "price": 39000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBread%2FBread%20%26%20Olives.jpeg?alt=media&token=fb0516da-44fd-48ef-a1e5-74fa296162dc",
+      "desc": "Describe",
+      "category": "Bread"
+    },
+    {
+      "id": 11,
+      "name": "Pain Au Chocolate",
+      "price": 59000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBread%2Fchocolate%20crossiant%20%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%8F%AF%E9%A2%82.jpeg?alt=media&token=4c04cb33-59e5-4b83-842a-a7320fa3f88c",
+      "desc": "Describe",
+      "category": "Bread"
+    },
+    {
+      "id": 12,
+      "name": "Focaccia-Gaz Oakley (25x30)",
+      "price": 139000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBread%2FFocaccia%20-%20Gaz%20Oakley.jpeg?alt=media&token=f659f2a6-6eb3-44f1-a169-47ff75026ef7",
+      "desc": "Describe",
+      "category": "Bread"
+    },
+    {
+      "id": 13,
+      "name": "Maritozzi-Cream",
+      "price": 49000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBread%2FMaritozzi.jpeg?alt=media&token=acf489d0-6a82-4907-b6d4-072554533f41",
+      "desc": "Describe",
+      "category": "Bread"
+    },
+    {
+      "id": 14,
+      "name": "Croisant Blank",
+      "price": 49000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBread%2FRezept%20von%20Nima%20Hemmat-Azad_%20Croissant%20_%20Kochbu%CC%88cher%20%26%20ihre%20besten%20Rezepte.jpeg?alt=media&token=42b9b6ed-61dc-41b4-8177-2760653c99f0",
+      "desc": "Describe",
+      "category": "Bread"
+    },
+    {
+      "id": 15,
+      "name": "Toast Bread",
+      "price": 99000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBread%2FToast%20bread%20%E5%90%90%E5%8F%B8%F0%9F%8D%9E.jpeg?alt=media&token=f673fa1f-5ac6-4795-85dc-963fd0092479",
+      "desc": "Describe",
+      "category": "Bread"
+    },
+    {
+      "id": 16,
+      "name": "Cheese Burger",
+      "price": 99000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBurger%26Pizza%2F817277540b7b72ae8d4f9dff53b849ef.jpg?alt=media&token=ca045b88-aeb8-4a6b-a783-92c5076c8dd9",
+      "desc": "Describe",
+      "category": "Burger & Pizza"
+    },
+    {
+      "id": 17,
+      "name": "Chicken Burger",
+      "price": 79000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBurger%26Pizza%2Fchikenburger.jpeg?alt=media&token=23fa31b7-54ce-46e3-ad8e-0e09663aab3b",
+      "desc": "Describe",
+      "category": "Burger & Pizza"
+    },
+    {
+      "id": 18,
+      "name": "Pizza Popolaze",
+      "price": 129000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBurger%26Pizza%2Fpizapopolaze.jpeg?alt=media&token=cb726064-deb5-464d-9dba-82fa4cfffaaf",
+      "desc": "Describe",
+      "category": "Burger & Pizza"
+    },
+    {
+      "id": 19,
+      "name": "Seafood Pizza",
+      "price": 159000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBurger%26Pizza%2Fseafoodpizza.jpeg?alt=media&token=6b06e042-8462-41e4-b66c-a68fe4931f42",
+      "desc": "Describe",
+      "category": "Burger & Pizza"
+    },
+    {
+      "id": 20,
+      "name": "Sunflower Seed Veggie Burger",
+      "price": 89000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBurger%26Pizza%2FSunflower%20Seed%20Veggie%20Burgers.jpeg?alt=media&token=9e895feb-4e23-45eb-a57b-840a506c4fb1",
+      "desc": "Describe",
+      "category": "Burger & Pizza"
+    },
+    {
+      "id": 21,
+      "name": "Vegan Mozzarella Mushroom Burger",
+      "price": 99000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBurger%26Pizza%2FVegan%20Mozzarella%20Mushroom%20Burger.jpeg?alt=media&token=d185d5c2-6bb7-405c-b813-8ad265dea122",
+      "desc": "Describe",
+      "category": "Burger & Pizza"
+    },
+    {
+      "id": 22,
+      "name": "Brownie Crinkle Cookies (box)",
+      "price": 49000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCookie%26Biscuit%2FBrownie%20Crinkle%20Cookies%20%E2%80%94%20The%20Boy%20Who%20Bakes.jpeg?alt=media&token=4563c122-3849-4f79-bdd5-2f617d0e7bb8",
+      "desc": "Describe",
+      "category": "Cookie & Biscuit"
+    },
+    {
+      "id": 23,
+      "name": "Chocolate cookies (box)",
+      "price": 49000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCookie%26Biscuit%2Fchocolate%20cookies%20photography%20%E5%B7%A7%E5%85%8B%E5%8A%9B%E6%9B%B2%E5%A5%87.jpeg?alt=media&token=46ab7119-5998-4202-a48d-61d310dab59e",
+      "desc": "Describe",
+      "category": "Cookie & Biscuit"
+    },
+    {
+      "id": 24,
+      "name": "Tiramisu Brownie Crinkle Cookies (box)",
+      "price": 49000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCookie%26Biscuit%2FTiramisu%20Brownie%20Crinkle%20Cookies%20(Paleo)%20%E2%80%94%20Clean%20Eats%20Factory.jpeg?alt=media&token=617b0ba8-bada-402f-b9ed-1c6ca6b1208d",
+      "desc": "Describe",
+      "category": "Cookie & Biscuit"
+    },
+    {
+      "id": 25,
+      "name": "Cookie Sandwich Vanilla (box)",
+      "price": 49000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCookie%26Biscuit%2Fcookie%20sandwich.jpeg?alt=media&token=a81b6742-6b41-4ee6-8a77-824982683c61",
+      "desc": "Describe",
+      "category": "Cookie & Biscuit"
+    },
+    {
+      "id": 26,
+      "name": "Lemon Butter Cookie (box)",
+      "price": 49000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCookie%26Biscuit%2Flemon%20butter%20cookies%20%E6%9F%A0%E6%AA%AC%E9%BB%84%E6%B2%B9%E6%9B%B2%E5%A5%87%E9%A5%BC%E5%B9%B2.jpeg?alt=media&token=29842e74-a127-4cf6-bc9a-b3b8f628cac2",
+      "desc": "Describe",
+      "category": "Cookie & Biscuit"
+    },
+    {
+      "id": 27,
+      "name": "Paleo Coconut Peppermint Patties (box)",
+      "price": 49000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCookie%26Biscuit%2FPaleo%20Coconut%20Peppermint%20Patties%20-%20Delight%20Fuel.jpeg?alt=media&token=fc9c8e4d-bc82-4352-aac4-d1f1ac2ab5df",
+      "desc": "Describe",
+      "category": "Cookie & Biscuit"
+    },
+    {
+      "id": 28,
+      "name": "Scone (2 pieces)",
+      "price": 39000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCookie%26Biscuit%2Fscone%20photography%20%E5%8F%B8%E5%BA%B7.jpeg?alt=media&token=f72acea7-74ac-4663-a51b-01004c1417e0",
+      "desc": "Describe",
+      "category": "Cookie & Biscuit"
+    },
+    {
+      "id": 29,
+      "name": "Lemon Curd Filled Donuts",
+      "price": 29000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FDonut%2FBaked%20Lemon%20Curd%20Filled%20Donuts%20-%20Island%20Bakes.jpeg?alt=media&token=ca3c13bd-5f3b-4647-8224-63698fa350a3",
+      "desc": "Describe",
+      "category": "Donuts"
+    },
+    {
+      "id": 30,
+      "name": "Bunny Donuts",
+      "price": 29000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FDonut%2FBunny%20Donuts%20%E2%80%94%20Sarah%20Makes%20Stuff.jpeg?alt=media&token=cf84b216-3ce7-427d-8114-b6308960bb83",
+      "desc": "Describe",
+      "category": "Donuts"
+    },
+    {
+      "id": 31,
+      "name": "Coconut Donuts",
+      "price": 29000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FDonut%2FCoconut%20Donuts.jpeg?alt=media&token=903d78a1-0270-4995-b0f4-15e839605147",
+      "desc": "Describe",
+      "category": "Donuts"
+    },
+    {
+      "id": 32,
+      "name": "Key Lime Coconut Donuts",
+      "price": 29000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FDonut%2FKey%20Lime%20Coconut%20Donuts%20-%20Baker%20by%20Nature.jpeg?alt=media&token=4d48480c-46ef-42b4-9de0-24a606f3c311",
+      "desc": "Describe",
+      "category": "Donuts"
+    },
+    {
+      "id": 33,
+      "name": "Oreo Cookies and Cream Donuts",
+      "price": 35000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FDonut%2FOreo%20Cookies%20and%20Cream%20Donuts%20-%20Baker%20by%20Nature.jpeg?alt=media&token=1e602412-cc54-443f-a035-bef3b23b4361",
+      "desc": "Describe",
+      "category": "Donuts"
+    },
+    {
+      "id": 34,
+      "name": "Mix Donuts (4 pieces random)",
+      "price": 116000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FDonut%2FRed%20Velvet%20Donuts%20(Recipe).jpeg?alt=media&token=d34bba57-0f4e-4a17-980e-fc3b4acda795",
+      "desc": "Describe",
+      "category": "Donuts"
+    },
+    {
+      "id": 35,
+      "name": "Vegan Chocolate Marble Glaze",
+      "price": 29000,
+      "stock": 999,
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FDonut%2FVegan%20Chocolate%20Marble%20Glaze%20-%20Delight%20Fuel.jpeg?alt=media&token=0e774b71-acaf-40f6-b3a3-8ab2c434f678",
+      "desc": "Describe",
+      "category": "Donuts"
+    },
+    {
+      "name": "Oreo Cake",
+      "price": "59,000",
+      "stock": "999",
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%20%26%20Deserts%2FOreo%20cake%20%E5%A5%A5%E5%88%A9%E5%A5%A5%E8%9B%8B%E7%B3%95.jpeg?alt=media&token=8a0cff5e-b0c7-4633-80c5-452485e3cdc0",
+      "desc": "Oreo is the best",
+      "category": "Cake & Deserts",
+      "id": 36
+    },
+    {
+      "name": "Burger",
+      "price": "139,000",
+      "stock": "999",
+      "isDelete": true,
+      "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FBurger%20%26%20Pizza%2F817277540b7b72ae8d4f9dff53b849ef.jpg?alt=media&token=eb2dc0a0-19ef-4548-b9a6-2af07100b05c",
+      "desc": "Mo ta",
+      "category": "Burger & Pizza",
+      "id": 37
+    }
+  ],
+  "orders": [
+    {
+      "idUser": 4,
+      "userName": "Trần Như Phúc",
+      "phone": "0999999999",
+      "address": "193 Nguyễn Lương Bằng",
+      "totalPrice": 1420000,
+      "status": 3,
+      "date": "1-1-2024",
+      "orderDetails": [
+        {
+          "id": 1,
+          "name": "British Victoria Sandwich",
+          "price": 49000,
+          "stock": 990,
+          "isDelete": true,
+          "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2FBritish%20Victoria%20Sandwich%20Sponge%20cake%20%E7%BB%B4%E5%A4%9A%E5%88%A9%E4%BA%9A%E6%B5%B7%E7%BB%B5%E8%9B%8B%E7%B3%95.jpeg?alt=media&token=6a3c9898-70b2-426b-a52f-cc519763ad8d",
+          "desc": "Describe",
+          "category": "Cake & Deserts",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Caramel Pudding Cake",
+          "price": 39000,
+          "stock": 994,
+          "isDelete": true,
+          "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2FCaremel%20Pudding%20cake%E7%84%A6%E7%B3%96%E5%B8%83%E4%B8%81%E8%9B%8B%E7%B3%95.jpeg?alt=media&token=853924a6-c614-42eb-8828-3fae9ef923a2",
+          "desc": "Describe",
+          "category": "Cake & Deserts",
+          "quantity": 4
+        },
+        {
+          "id": 3,
+          "name": "Chocolate and Caramel Mousse Cake",
+          "price": 49000,
+          "stock": 996,
+          "isDelete": true,
+          "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2FChocolate%20and%20Caramel%20Mousse%20Cake%20-%20Julie%20Marie%20Eats.jpeg?alt=media&token=524157e4-62ae-45e3-8aea-2084200ee2c0",
+          "desc": "Describe",
+          "category": "Cake & Deserts",
+          "quantity": 4
+        },
+        {
+          "id": 6,
+          "name": "Sweet Tooth Girl (2 pieces)",
+          "price": 29000,
+          "stock": 998,
+          "isDelete": true,
+          "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2FSweet%20Tooth%20Girl.jpeg?alt=media&token=2309b667-e65d-4b4e-94b5-8e7334853fc2",
+          "desc": "Describe",
+          "category": "Cake & Deserts",
+          "quantity": 5
+        },
+        {
+          "id": 5,
+          "name": "Pumpkin Yogurt Cake",
+          "price": 49000,
+          "stock": 997,
+          "isDelete": true,
+          "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2Fpumpkin%20yogurt%20cake%20%E5%8D%97%E7%93%9C%E9%85%B8%E5%A5%B6%E8%9B%8B%E7%B3%95.jpeg?alt=media&token=24164fe8-b69a-467d-9587-ffa3bea85786",
+          "desc": "Describe",
+          "category": "Cake & Deserts",
+          "quantity": 5
+        },
+        {
+          "id": 4,
+          "name": "Lava Luxury Cake",
+          "price": 59000,
+          "stock": 996,
+          "isDelete": true,
+          "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%20%26%20Deserts%2F9b7827375fed22779f95b6486d86b438.jpg?alt=media&token=05ee0637-0f68-429d-873b-dd740603a5a2",
+          "desc": "Describe",
+          "category": "Cake & Deserts",
+          "quantity": 9
+        }
+      ],
+      "id": 1
+    },
+    {
+      "idUser": 10,
+      "userName": "Hoang Viet",
+      "phone": "099999999",
+      "address": "13 Nguyen Huu Tho",
+      "totalPrice": 117000,
+      "status": 1,
+      "date": "2-1-2024",
+      "orderDetails": [
+        {
+          "id": 2,
+          "name": "Caramel Pudding Cake",
+          "price": 39000,
+          "stock": 990,
+          "isDelete": true,
+          "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2FCaremel%20Pudding%20cake%E7%84%A6%E7%B3%96%E5%B8%83%E4%B8%81%E8%9B%8B%E7%B3%95.jpeg?alt=media&token=853924a6-c614-42eb-8828-3fae9ef923a2",
+          "desc": "Describe",
+          "category": "Cake & Deserts",
+          "quantity": 3
+        }
+      ],
+      "id": 2
+    },
+    {
+      "idUser": 10,
+      "userName": "Hoang Viet",
+      "phone": "0999999999",
+      "address": "191 Nguyễn Lương Bằng",
+      "totalPrice": 39000,
+      "status": 3,
+      "date": "2-1-2024",
+      "orderDetails": [
+        {
+          "id": 2,
+          "name": "Caramel Pudding Cake",
+          "price": 39000,
+          "stock": 987,
+          "isDelete": true,
+          "image": "https://firebasestorage.googleapis.com/v0/b/learn-firebase-bd824.appspot.com/o/Products%2FCake%26Deserts%2FCaremel%20Pudding%20cake%E7%84%A6%E7%B3%96%E5%B8%83%E4%B8%81%E8%9B%8B%E7%B3%95.jpeg?alt=media&token=853924a6-c614-42eb-8828-3fae9ef923a2",
+          "desc": "Describe",
+          "category": "Cake & Deserts",
+          "quantity": 1
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "idUser": 9,
+      "idProduct": "5",
+      "content": "RKA ",
+      "date": "2-0-2024",
+      "id": 1
+    }
+  ],
+  "rate": []
+}

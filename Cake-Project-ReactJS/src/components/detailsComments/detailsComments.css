@@ -1,0 +1,156 @@
+.comments {
+    width: 35%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px rgba(103, 102, 102, 0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.comments .commentEnter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content:space-between;
+    gap: 20px;
+    width: 100%;
+    height: 15%;
+}
+.comments .commentEnter .textAndCount {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.comments .commentEnter .textAndCount span {
+    color: var(--primary);
+}
+.comments .commentEnter .textAndCount textarea {
+    width: 100%;
+    height: 70px;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+}
+.comments .commentEnter .rateAndCommentAction {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.comments .commentEnter .rateAndCommentAction button {
+    padding: 10px 30px;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--primary);
+    font-weight: 600;
+    transition: 0.3s;
+}
+.comments .commentEnter button:hover {
+    transform: scale(1.1);
+    background-color: #fff;
+    color: #000;
+}
+
+.comments .commentElements {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(103, 102, 102, 0.5);
+    overflow-y: scroll;
+}
+.comments .commentElements .commentElement {
+    max-height: 300px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 2px 2px 9px 4px rgba(103, 102, 102, 0.5);   
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+.comments .commentElements .commentElement img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.comments .commentElements .commentElement .commentInfo {
+    height: 100%;
+    max-width: calc(100% - 70px);
+    
+}
+.comments .commentElements .commentElement .commentInfo .commentText {
+    height: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px 3px rgba(103, 102, 102, 0.5);   
+    margin-bottom: 5px;
+}
+.comments .commentElements .commentElement .commentInfo .commentText .nameWithRate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.comments .commentElements .commentElement .commentInfo .commentText .nameWithRate span {
+    font-size: 18px;
+    color: var(--primary);
+    font-weight: 600;
+}
+.comments .commentElements .commentElement .commentInfo .commentText p {
+    font-size: 14px;
+    color: var(--primary);
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+.comments .commentElements .commentElement .commentInfo .commentActions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 10px ;
+}
+.comments .commentElements .commentElement .commentInfo .commentActions * {
+    font-size: 14px;
+    color: var(--primary);
+}
+.comments .commentElements .commentElement .commentInfo .commentActions *:not(:first-child) {
+    cursor: pointer;
+}
+.rateGroup {
+    padding: 10px;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+}
+.rateAction {
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+.rateAction:hover {
+    color: #fff;
+    font-size: 18px;
+}

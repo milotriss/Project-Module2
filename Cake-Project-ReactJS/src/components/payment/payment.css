@@ -1,0 +1,182 @@
+.backGroundPayment {
+    background-image: url("../../../public/assets/images/cake2/22F7092C-F158-4D4A-85B7-4828F7B7E5AA.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}   
+.overlayPayment {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+.products__payment {
+    padding: 20px 20px;
+    width: 100%;
+    height: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.products__payment .products__payment-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.products__payment .products__payment-title .iconPayment {
+    font-size: 40px;
+    font-weight: 900;
+    cursor: pointer;
+    color: var(--primary);
+}
+.products__payment .products__payment-title h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+.products__payment .product__payment-items {
+    height: 100%;
+    width: 100%;
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.products__payment .product__payment-items::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* Form */
+.payment__info {
+    padding: 20px 20px;
+    width: 100%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.2);
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.payment__info h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    height: 20%;
+    width: 100%;
+    letter-spacing: 5px;
+}
+
+.payment__info .payment__info-items {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.payment__info .payment__info-items p {
+    width: 30%;
+    height: 100%;
+    font-size: 55px;
+    font-family: 'Lobster Two', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.payment__info .payment__info-items div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    width: 33%;
+}
+.payment__info .payment__info-items div:first-child {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.payment__info .payment__info-items div:last-child span {
+    height: 50%;
+    width: 100%;
+    font-size: 35px;
+}
+.payment__info .payment__info-items div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 33%;
+}
+.payment__info .payment__info-items div:first-child input {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    color: var(--primary);
+    padding: 0 20px;
+    border: 1px solid var(--primary);
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.payment__info .payment__info-items div:first-child input:last-child {
+    width: 50%;
+}
+.payment__info .payment__info-items div:first-child input::placeholder{
+    color: #fff;
+}
+.payment__info .payment__info-items div:last-child {
+    width: 30%;
+}
+
+
+.payment__info .btnPayment {
+    height: 20%;
+    width: 100%;
+    padding: 15px 0;
+    color: var(--primary);
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.payment__info .btnPayment:hover {
+    background: linear-gradient(90deg, var(--primary), rgba(17, 194, 179, 0.192));
+    color: #fff;
+    transform: scale(1.01);
+}

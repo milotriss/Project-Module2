@@ -1,0 +1,161 @@
+.cart__container {
+    background-image: url("../../../public/assets/images/cake2/MERVEILLEINDIVCARRE_15aec686-1866-478b-aa66-d8ed2fb6f442_1240x1240.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.cart__overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(52, 52, 52, 0.7), rgba(87,87,87,0.2))
+}
+.cart__overlay .mainCart {
+    height: 100%;
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    gap: 20px;
+}
+.cart__top {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.cart__top .cart__top-title {
+    height: 10%;
+    width: 100%;
+    color: var(--primary);
+}
+.cart__top .cart__top-title a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    color: var(--primary);
+    cursor: pointer;
+}
+.cart__top .cart__top-title p {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+.cart__top .cart__top-products {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.cart__top .cart__top-products .empty__cart {
+    width: 300px;
+    height: 400px;
+}
+
+
+.cart__top .cart__top-products .cart__top-voucher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 10%;
+}
+.cart__top .cart__top-products .cart__top-voucher input {
+    padding: 10px 20px 10px 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--primary);
+    color: var(--primary);
+}
+.cart__top .cart__top-products .cart__top-voucher input::placeholder {
+    color: #ffffffc7;
+}
+.cart__top .cart__top-products .cart__top-voucher button {
+    padding: 10px 30px;
+    color: var(--primary);
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    font-size: 16px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+.cart__top .cart__top-products .cart__top-voucher button:hover {
+    background: linear-gradient(90deg, var(--primary), rgba(17, 194, 179, 0.192));
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+.cart__bottom {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+.cart__bottom .cart__bottom-title h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    color: var(--primary);
+}
+.cart__bottom table {
+    width: 100%;
+    color: var(--primary);
+}
+.cart__bottom table tr:first-child {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.cart__bottom table tr:last-child {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.cart__bottom table tr td:last-child {
+    text-align: end;
+}
+.cart__bottom button {
+    padding: 15px 0;
+    color: var(--primary);
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    font-size: 16px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+.cart__bottom button:hover {
+    background: linear-gradient(90deg, var(--primary), rgba(17, 194, 179, 0.192));
+    color: #fff;
+    transform: scale(1.05);
+}
+

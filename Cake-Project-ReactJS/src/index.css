@@ -1,0 +1,69 @@
+:root {
+  --primary: #65DACB;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Lobster Two', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+ul, ol {
+  list-style: none;
+}
+body {
+  position: relative;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+button {
+  cursor: pointer;
+}
+input {
+  outline: none;
+}
+.btn__big {
+  padding: 25px 100px;
+  border: 1px solid var(--primary);
+  border-radius: 40px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  transition: 0.2s;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 9px rgba(0, 0, 0, 0.9);
+}
+@media (min-width: 768px) and (max-width: 1024px){
+  .btn__big {
+      padding: 20px 80px;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px){
+  .btn__big {
+      padding: 15px 50px;
+      font-size: 15px;
+  }
+}
+.btn__big:hover {
+  background: linear-gradient(90deg, var(--primary), rgba(17, 194, 179, 0.192));
+  transform: scale(1.09);
+  color: #fff;
+}
+@keyframes slide-left{
+  0%{
+      transform:translateX(0)
+  }
+  100%{
+      transform:translateX(-100vw)
+  }
+}
+
